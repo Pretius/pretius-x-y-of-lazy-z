@@ -1,0 +1,36 @@
+{
+  "name": "Pretius x-y of Lazy z Pagination",
+  "version": "24.1.1",
+  "description": "Improves peformance of IRs based on Row Ranges X to Y of Z by calculating the rowcount lazily",
+  "keywords": ["Pagination","Performance","IR", "Interactive", "Report", "Ranges", "columns", "link"],
+  "homepage": "https://github.com/Pretius/pretius-x-y-of-lazy-z",
+  "bugs": {
+    "url": "https://github.com/Pretius/pretius-x-y-of-lazy-z/issues",
+    "email": "apex-plugins@pretius.com"
+  },
+  "license": "MIT",
+  "commercial": "No",
+  "commercially_supported":"Yes",
+  "author" : {
+    "name" : "Pretius",
+    "email" : "apex-plugins@pretius.com",
+    "url" : "http://www.pretius.com",
+    "twitter": "PretiusSoftware"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pretius/pretius-x-y-of-lazy-z.git"
+  },
+  "oracle": {
+    "versions": ["23.2.0", "21.1.0", "19.1.0"],
+    "apex": {
+      "versions": ["24.1.0"],
+      "plugin": {
+        "internalName": "COM.PRETIUS.APEX_LAZY_PAGINATION",
+        "type": "template component",
+        "demo": "https://apex.oracle.com/pls/apex/r/luf/xyz",
+        "previewImage": "https://raw.githubusercontent.com/Pretius/pretius-x-y-of-lazy-z/main/assets/preview.png?raw=true"
+      }
+    }
+  }
+}
